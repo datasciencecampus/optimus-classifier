@@ -12,6 +12,6 @@ cd ../ && rm -rf fastext
 
 # download binary FT  pretrained model and unzip
 cd model
-wget https://dl.fbaipublicfiles/fasttext/vectors-wiki/wiki.en.zip
+wget https://dl.fbaipublicfiles.com/fasttext/vectors-wiki/wiki.en.zip
 unzip wiki.en.zip
 cd ..
