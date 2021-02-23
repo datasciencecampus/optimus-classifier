@@ -4,7 +4,7 @@
 
 The Optimus classifier is a tool developed by the Data Science Campus to automatically classify lists of items into 42 commodity categories. The classifier predicts categories for items solely from free-text description.
 
-This repository contains a pretrained version of the classifier for public use. 
+This repository contains a pretrained version of the classifier for public use.
 
 See a full list of categories at the bottom of this page.
 
@@ -18,10 +18,10 @@ There is a `setup.zsh` file in the root directory of this repo. Running this wil
 
 #### Running a test
 
-The python code comes with some example dummy data to test that everything is working. The test data is located at `./projects/Optimus-II/data/items.csv`.
+The python code comes with some example dummy data to test that everything is working. The test data is located at `./data/items.csv`.
 
 1. Open a linux terminal  
-2. Type `cd ./projects/Optimus-II/` and hit enter to change directory
+2. Type `cd ./projects/optimus-classifier/` and hit enter to change directory
 3. Type `python3 predict.py ./data/items.csv`
 
 The code should run and return to the linux prompt afterwards. The code produces two new data sets in the `./data/` directory which are the original file name suffixed with `_predictions` and `predictions_pp` respectively.
