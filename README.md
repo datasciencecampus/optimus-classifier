@@ -20,11 +20,10 @@ There is a `setup.zsh` file in the root directory of this repo. Running this wil
 
 The python code comes with some example dummy data to test that everything is working. The test data is located at `./data/items.csv`.
 
-1. Open a linux terminal  
-2. Type `cd ./projects/optimus-classifier/` and hit enter to change directory
-3. Type `python3 predict.py ./data/items.csv`
+1. Open a linux terminal and from the root directory of this repo `optimus-classifier`
+2. Type `python3 predict.py "./data/items.csv"`
 
-The code should run and return to the linux prompt afterwards. The code produces two new data sets in the `./data/` directory which are the original file name suffixed with `_predictions` and `predictions_pp` respectively.
+The code should run and return to the linux prompt when complete. The code produces two new data sets in the `./data/` directory which are the original file name suffixed with `_predictions` and `predictions_pp` respectively.
 
 * ./data/items_predictions.csv
 * ./data/items_predictions_pp.csv
